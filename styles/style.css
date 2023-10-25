@@ -45,6 +45,8 @@
 .header__logo-image {
   width: 148px;
   height: 105px;
+  margin-right: 355px;
+  margin-left: 209px;
 }
 
 .address {
@@ -341,6 +343,7 @@
 
 .footer__navigation {
   display: flex;
+  align-self: start;
 }
 
 .footer__links-list {
@@ -354,7 +357,7 @@
   width: 240px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 80px;
   align-self: start;
   height: 48px;
 }
