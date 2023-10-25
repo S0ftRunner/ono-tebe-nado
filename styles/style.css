@@ -152,11 +152,17 @@
   margin-right: 110px;
   word-spacing: 0.5em;
   text-align: center;
+  text-wrap: nowrap;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
+}
+
+.cover__footer-text-bigger-space {
+
+  word-spacing: 1em;
 }
 
 .cover_footer-link {
@@ -183,7 +189,7 @@
 
 .lots {
   width: 1340px;
-  margin: 180px 50px 181px;
+  margin: 180px 50px 180px;
   height: 579px;
   box-sizing: border-box;
 }
@@ -202,7 +208,7 @@
 
 .lots__cards-container {
   display: grid;
-  grid-template-columns: repeat(3, 1.2fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 30px;
 }
 
