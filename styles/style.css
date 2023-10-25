@@ -74,6 +74,7 @@
 }
 
 .cover {
+  position: relative;
   margin-top: 92px;
   height: 757px;
   display: flex;
@@ -82,12 +83,27 @@
   flex-direction: column;
   background-image: url("../images/cover.jpg");
   color: #fff;
+
 }
 
+.cover__shadow {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  
+}
+
+
 .cover__title {
+  position: absolute;;
+  bottom: 237px;
+  right: 50px;
   width: 1340px;
   margin-top: 165px;
 }
+
 
 .cover__text {
   display: block;
@@ -118,6 +134,9 @@
 }
 
 .cover__footer {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: end;
