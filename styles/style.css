@@ -38,7 +38,7 @@
   list-style: none;
 }
 
-.header__link-active {
+.link-active {
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@
  наезжало на текст
  */
 
-.header__address-link {
+.address-link {
   text-decoration: none;
   border-bottom: 1px solid black;
 }
@@ -162,6 +162,7 @@
   width: 1340px;
   margin: 180px 50px 181px;
   height: 579px;
+  box-sizing: border-box;
 }
 
 .lots__title {
@@ -178,7 +179,7 @@
 
 .lots__cards-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1.2fr);
   margin-bottom: 30px;
 }
 
@@ -228,8 +229,113 @@
   line-height: normal;
 }
 
-
 .about {
+  width: 1340px;
+  height: 487px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  box-sizing: border-box;
+}
+
+.about__images {
+  position: relative;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.about__images-container {
+  width: 240px;
+  height: 240px;
+}
+
+/* 
+  Зравствуйте! Не подскажите, верным ли был мой шаг, что я нанес 
+  логотип изображения на svg с помощью position? Или надо было лучше 
+  по - другому сделать? Заранее спасибо за ответ! 
+*/
+
+.about__images-logo {
+  position: absolute;
+  width: 148px;
+  height: 114px;
+  top: 63px;
+
+  /* 
+    данное значение получилось из - за того, что при паддинге 
+    контейнера изображений надо сместить и позицию логотипа внутри
+    svg изображения: 46(на верстке) + 95(смещение) = 141
+  */
+
+  left: 141px;
+}
+
+.about__text-container {
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+.about__text-title {
+  display: block;
+  margin-bottom: 100px;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__text-description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.footer {
+  margin-bottom: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 1340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer__navigation {
+  display: flex;
+}
+
+.footer__links-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__links {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: start;
+  height: 48px;
 }
