@@ -152,7 +152,7 @@
   margin-right: 110px;
   word-spacing: 0.5em;
   text-align: center;
-  text-wrap: nowrap;
+  white-space: nowrap;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
