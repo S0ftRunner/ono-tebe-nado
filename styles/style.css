@@ -143,16 +143,15 @@
 }
 
 .cover__footer {
-  /* position: absolute; */
-  /* right: 50px; */
-  /* bottom: 50px; */
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
-  margin-top: 130px;
-  margin-left: 422px;
-  margin-right: 50px;
+  padding-top: 130px;
+  padding-left: 422px;
+  /* 
+    тут теперь сбилась кнопка сделать ставку, вообще без понятия, как ее исправить
+    ни марджин ни паддинг слева не работает.
+  */
 }
 
 .cover__footer-text {
@@ -174,7 +173,10 @@
 .cover_footer-button {
   color: #fff;
   text-decoration: none;
-  width: 257px;
+  min-width: 257px;
+
+  /* Вы сказали убрать высоту кнопки, но она же станет более узкой. Как быть тогда? */
+  
   height: 52px;
   border: 1px solid #fff;
   text-align: center;
@@ -184,6 +186,7 @@
   line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
+  margin-right: 50px;
 }
 
 .cover_footer-button:hover {
@@ -193,7 +196,6 @@
 .lots {
   width: 1340px;
   margin: 180px 50px 180px;
-  height: 579px;
   box-sizing: border-box;
 }
 
@@ -221,7 +223,6 @@
 .lots__card {
   position: relative;
   width: 430px;
-  height: 450px;
 }
 
 .lots__card-text {
@@ -261,7 +262,6 @@
 
 .about {
   width: 1340px;
-  height: 487px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 180px;
@@ -283,9 +283,7 @@
 }
 
 /* 
-  Зравствуйте! Не подскажите, верным ли был мой шаг, что я нанес 
-  логотип изображения на svg с помощью position? Или надо было лучше 
-  по - другому сделать? Заранее спасибо за ответ! 
+  Я не очень понимаю как можно разместить изображение поверх c помощью флекса.
 */
 
 .about__images-logo {
@@ -362,7 +360,6 @@
 
 .footer__links {
   width: 240px;
-  height: 48px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
