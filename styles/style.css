@@ -112,18 +112,14 @@
 
 .cover__text-left {
   text-align: left;
-  margin-right: 50px;
 }
 
 .cover__text-center {
   text-align: center;
-  margin-right: 50px;
-  margin-left: 110px;
 }
 
 .cover__text-right {
   text-align: right;
-  width: 100%;
 }
 
 .cover__text-separator {
@@ -133,10 +129,17 @@
 .cover__footer {
   z-index: 1;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   margin-top: 135px;
   margin-bottom: 50px;
+  padding-right: 50px;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  width: 968px;
 }
 
 .cover__footer-text {
@@ -158,6 +161,7 @@
 }
 
 .cover__footer-button {
+  display: block;
   color: #fff;
   text-decoration: none;
   width: 257px;  
