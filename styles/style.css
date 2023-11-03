@@ -79,6 +79,7 @@
   background-image: url("../images/cover.jpg");
   background-size: cover;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .overlay {
@@ -154,10 +155,6 @@
   font-weight: 400;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
-}
-
-.cover__footer-text-bigger-space {
-  word-spacing: 1em;
 }
 
 .cover__footer-button {
