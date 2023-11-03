@@ -1,9 +1,4 @@
 
-/* 
-  Теперь при автотестах лендинг не совсем схож с тем, который на
-  присутствует на автотесте. Все съехало чуть вниз, но относительно друг друга
-  элементы не поменяли ориентацию в лендинге.
- */
 .header {
   margin-top: 92px;
   margin-right: 50px;
@@ -215,12 +210,29 @@
 .lots__card {
   position: relative;
   width: 430px;
-  height: 450px;
+  height: 100%;
+}
+
+.card__type-film { 
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card__type-book {
+  background-image: url("../images/card-lot-02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card__type-picture {
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .lots__card-text {
-  top: 0;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
