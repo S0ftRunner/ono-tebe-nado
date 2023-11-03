@@ -98,7 +98,6 @@
   width: 1340px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .cover__text {
@@ -147,7 +146,7 @@
   display: flex;
   justify-content: start;
   align-self: center;
-  word-spacing: 0.5em;
+  word-spacing: 0.7em;
   text-align: center;
   white-space: nowrap;
   font-size: 22px;
