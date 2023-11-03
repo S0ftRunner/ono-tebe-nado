@@ -128,7 +128,7 @@
 /* Правый крайний текст никак на место не встает, все перепробовал */
 .cover__text-right {
   text-align: right;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .cover__text-separator {
