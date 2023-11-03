@@ -116,10 +116,14 @@
 
 .cover__text-center {
   text-align: center;
+  margin-left: 50px;
+  margin-right: 110px;
 }
 
 .cover__text-right {
   text-align: right;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .cover__text-separator {
