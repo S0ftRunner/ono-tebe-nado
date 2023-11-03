@@ -103,7 +103,7 @@
   margin-left: 50px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 
 .cover__text {
