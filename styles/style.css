@@ -132,7 +132,6 @@
   display: grid;
   grid-template-columns: repeat(2, 0.3fr);
   margin-top: 135px;
-  padding-bottom: 50px;
   justify-content: center;
   align-items: center;
 }
