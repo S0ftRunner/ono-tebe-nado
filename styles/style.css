@@ -214,26 +214,22 @@
 .lots__card {
   position: relative;
   width: 430px;
-  /* Надо ставить минимальную высоту? */
   min-height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__type-film {
   background-image: url("../images/card-lot-01.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .card__type-book {
   background-image: url("../images/card-lot-02.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card__type-picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .lots__card-text {
